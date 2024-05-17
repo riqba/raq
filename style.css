@@ -1,0 +1,89 @@
+      /* CSS Untuk Styling */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        position: relative; /* Tambahkan */
+      }
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        display: center;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+      }
+      .navbar {
+        background-color: #f4f4f4;
+        padding: 10px 0;
+        text-align: center;
+      }
+      .navbar a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: #333;
+      }
+      .produk {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      .produk-item {
+        width: 250px; /* Mengurangi lebar */
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+      }
+      .keranjang {
+        background-color: #f4f4f4;
+        padding: 20px;
+        margin-top: 20px;
+      }
+      .kontak {
+        display: center;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 14px; /* Mengurangi ukuran teks */
+      }
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        width: 100%;
+      }
+      .image-container {
+        position: relative;
+      }
+      .image {
+        max-width: 100%;
+        max-height: 100%;
+      }
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+      }
+      .overlay h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+      .aboutme {
+        display: center;
+        text-align: center;
+      }
